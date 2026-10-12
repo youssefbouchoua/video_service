@@ -1,0 +1,10 @@
+type Creator {
+    id: Float
+    name: String
+    email: String
+}
+
+input CreatorRequest{
+    name : String,
+    email : String
+}

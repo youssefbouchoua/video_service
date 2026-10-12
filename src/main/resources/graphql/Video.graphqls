@@ -1,0 +1,16 @@
+type Video {
+    id: Float
+    name: String
+    url: String
+    description: String
+    datePublication: String
+    creator: Creator
+}
+
+input VideoRequest{
+    name : String,
+    url : String,
+    description : String,
+    datePublication : String,
+    creator : CreatorRequest
+}
